@@ -7,7 +7,7 @@ import (
 )
 
 // TODO: Write the rule's description here
-// AzurermResourceMissingTagsRule checks ...
+// AzurermResourceMissingTagsRule checks the pattern is valid
 type AzurermResourceMissingTagsRule struct {
 	tflint.DefaultRule
 
