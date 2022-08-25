@@ -19,8 +19,8 @@ type AzurermResourceMissingTagsRule struct {
 func NewAzurermResourceMissingTagsRule() *AzurermResourceMissingTagsRule {
 	return &AzurermResourceMissingTagsRule{
 		// TODO: Write resource type and attribute name here
-		resourceType:  "...",
-		attributeName: "...",
+		resourceType:  "azurerm_virtual_machine",
+		attributeName: "tags",
 	}
 }
 
@@ -75,7 +75,7 @@ func (r *AzurermResourceMissingTagsRule) Check(runner tflint.Runner) error {
 			if val == "" {
 				runner.EmitIssue(
 					r,
-					"TODO",
+					"missing tags",
 					attribute.Expr.Range(),
 				)
 			}
