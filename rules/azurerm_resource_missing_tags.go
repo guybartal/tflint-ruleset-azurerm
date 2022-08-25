@@ -48,7 +48,7 @@ func (r *AzurermResourceMissingTagsRule) Link() string {
 }
 
 // TODO: Write the details of the inspection
-// Check checks ...
+// Check whether the resource is tagged correctly
 func (r *AzurermResourceMissingTagsRule) Check(runner tflint.Runner) error {
 	// TODO: Write the implementation here. See this documentation for what tflint.Runner can do.
 	//       https://pkg.go.dev/github.com/terraform-linters/tflint-plugin-sdk/tflint#Runner
