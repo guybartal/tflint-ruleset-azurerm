@@ -1,3 +1,8 @@
+## 0.17.2 (2022-09-04)
+### Enhancements
+
+- [#194](https://github.com/terraform-linters/tflint-ruleset-azurerm/pull/194): Add rule for azurerm resource missing tags
+
 ## 0.17.1 (2022-07-31)
 
 ### Enhancements
